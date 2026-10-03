@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CA1C0DE2F7A000100000001 /* ClockHandKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4CA1C0DE2F7A000100000003 /* ClockHandKit */; };
 		4C2527572F4D9AF6003CC5AD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2527562F4D9AF6003CC5AD /* WidgetKit.framework */; };
 		4C2527592F4D9AF6003CC5AD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2527582F4D9AF6003CC5AD /* SwiftUI.framework */; };
 		4C2527682F4D9AF7003CC5AD /* KeyringWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4C2527542F4D9AF6003CC5AD /* KeyringWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -23,16 +24,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4C08F7692F63E266003015CC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4C25276D2F4D9AF7003CC5AD /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,19 +54,6 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		4C08F76A2F63E266003015CC /* Exceptions for "Widget" folder in "Embed Frameworks" phase from "KeyringWidgetExtension" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			attributesByRelativePath = {
-				Frameworks/ClockHandRotationEffect.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
-			};
-			buildPhase = 4C08F7692F63E266003015CC /* Embed Frameworks */;
-			membershipExceptions = (
-				Frameworks/ClockHandRotationEffect.xcframework,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4C25267C2F4D5A80003CC5AD /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -86,7 +64,6 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				4C25277F2F4E1000003CC5AD /* Exceptions for "Widget" folder in "KeyringWidgetExtension" target */,
-				4C08F76A2F63E266003015CC /* Exceptions for "Widget" folder in "Embed Frameworks" phase from "KeyringWidgetExtension" target */,
 			);
 			path = Widget;
 			sourceTree = "<group>";
@@ -115,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA1C0DE2F7A000100000001 /* ClockHandKit in Frameworks */,
 				4C2527592F4D9AF6003CC5AD /* SwiftUI.framework in Frameworks */,
 				4C2527572F4D9AF6003CC5AD /* WidgetKit.framework in Frameworks */,
 			);
@@ -189,7 +167,6 @@
 				4C2527502F4D9AF6003CC5AD /* Sources */,
 				4C2527512F4D9AF6003CC5AD /* Frameworks */,
 				4C2527522F4D9AF6003CC5AD /* Resources */,
-				4C08F7692F63E266003015CC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +179,7 @@
 			);
 			name = KeyringWidgetExtension;
 			packageProductDependencies = (
+				4CA1C0DE2F7A000100000003 /* ClockHandKit */,
 			);
 			productName = KeyringWidgetExtension;
 			productReference = 4C2527542F4D9AF6003CC5AD /* KeyringWidgetExtension.appex */;
@@ -234,6 +212,9 @@
 			);
 			mainGroup = 4C2526712F4D5A80003CC5AD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4CA1C0DE2F7A000100000002 /* XCRemoteSwiftPackageReference "ClockHandKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4C25267B2F4D5A80003CC5AD /* Products */;
 			projectDirPath = "";
@@ -568,6 +549,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4CA1C0DE2F7A000100000002 /* XCRemoteSwiftPackageReference "ClockHandKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/giljihun/ClockHandKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4CA1C0DE2F7A000100000003 /* ClockHandKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CA1C0DE2F7A000100000002 /* XCRemoteSwiftPackageReference "ClockHandKit" */;
+			productName = ClockHandKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C2526722F4D5A80003CC5AD /* Project object */;
 }

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import ClockHandRotationEffect
+import ClockHandKit
 
 // MARK: - Arc Mask Shape
 
