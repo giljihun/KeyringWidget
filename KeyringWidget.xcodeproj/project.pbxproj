@@ -57,7 +57,7 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4C25267C2F4D5A80003CC5AD /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = App;
+			path = KeyringWidget/App;
 			sourceTree = "<group>";
 		};
 		4C25276F2F4D9BEF003CC5AD /* Widget */ = {
@@ -65,17 +65,17 @@
 			exceptions = (
 				4C25277F2F4E1000003CC5AD /* Exceptions for "Widget" folder in "KeyringWidgetExtension" target */,
 			);
-			path = Widget;
+			path = KeyringWidget/Widget;
 			sourceTree = "<group>";
 		};
 		4C2527802F4E2000003CC5AD /* Core */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Core;
+			path = KeyringWidget/Core;
 			sourceTree = "<group>";
 		};
 		4C2527812F4E3000003CC5AD /* Resources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Resources;
+			path = KeyringWidget/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -395,7 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = App/KeyringWidget.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KeyringWidget/App/KeyringWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M5VM39FM9;
@@ -428,7 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = App/KeyringWidget.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KeyringWidget/App/KeyringWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M5VM39FM9;
@@ -461,12 +461,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = Widget/KeyringWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KeyringWidget/Widget/KeyringWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M5VM39FM9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_FILE = KeyringWidget/Widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Keyring;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,12 +492,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = Widget/KeyringWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KeyringWidget/Widget/KeyringWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M5VM39FM9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_FILE = KeyringWidget/Widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Keyring;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
