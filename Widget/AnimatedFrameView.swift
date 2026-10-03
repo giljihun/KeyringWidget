@@ -1,6 +1,6 @@
 //
 //  AnimatedFrameView.swift
-//  Widgetnimation
+//  KeyringWidget
 //
 //  Created by 길지훈 on 2026-03-13.
 //

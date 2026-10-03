@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Widgetnimation
+//  KeyringWidget
 //
 //  Created by 길지훈 on 2/24/26.
 //
@@ -37,7 +37,7 @@ struct ContentView: View {
             Image(systemName: "widget.small")
                 .font(.system(size: 32))
                 .foregroundStyle(.secondary)
-            Text("Widgetnimation Sample 😆")
+            Text("KeyringWidget Sample 😆")
                 .font(.title3.bold())
         }
     }

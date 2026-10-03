@@ -1,6 +1,6 @@
 //
-//  WidgetnimationWidget.swift
-//  WidgetnimationWidget
+//  KeyringWidget.swift
+//  KeyringWidgetExtension
 //
 //  Created by 길지훈 on 2026-02-24.
 //
@@ -11,25 +11,25 @@ import WidgetKit
 
 // MARK: - Entry
 
-struct WidgetnimationEntry: TimelineEntry {
+struct KeyringEntry: TimelineEntry {
     let date: Date
     let customFrames: [UIImage]?
 }
 
 // MARK: - Provider
 
-struct WidgetnimationProvider: TimelineProvider {
+struct KeyringProvider: TimelineProvider {
 
-    func placeholder(in context: Context) -> WidgetnimationEntry {
-        WidgetnimationEntry(date: .now, customFrames: nil)
+    func placeholder(in context: Context) -> KeyringEntry {
+        KeyringEntry(date: .now, customFrames: nil)
     }
 
-    func getSnapshot(in context: Context, completion: @escaping (WidgetnimationEntry) -> Void) {
-        completion(WidgetnimationEntry(date: .now, customFrames: loadFrames()))
+    func getSnapshot(in context: Context, completion: @escaping (KeyringEntry) -> Void) {
+        completion(KeyringEntry(date: .now, customFrames: loadFrames()))
     }
 
-    func getTimeline(in context: Context, completion: @escaping (Timeline<WidgetnimationEntry>) -> Void) {
-        let entry = WidgetnimationEntry(date: .now, customFrames: loadFrames())
+    func getTimeline(in context: Context, completion: @escaping (Timeline<KeyringEntry>) -> Void) {
+        let entry = KeyringEntry(date: .now, customFrames: loadFrames())
         // .never — only updates when the app calls reloadAllTimelines()
         completion(Timeline(entries: [entry], policy: .never))
     }
@@ -44,8 +44,8 @@ struct WidgetnimationProvider: TimelineProvider {
 
 // MARK: - Entry View
 
-struct WidgetnimationWidgetView: View {
-    var entry: WidgetnimationEntry
+struct KeyringWidgetView: View {
+    var entry: KeyringEntry
 
     var body: some View {
         GeometryReader { geo in
@@ -76,16 +76,16 @@ struct WidgetnimationWidgetView: View {
 
 // MARK: - Widget
 
-struct WidgetnimationWidget: Widget {
-    let kind = "WidgetnimationWidget"
+struct KeyringWidget: Widget {
+    let kind = "KeyringWidget"
 
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: WidgetnimationProvider()) { entry in
-            WidgetnimationWidgetView(entry: entry)
+        StaticConfiguration(kind: kind, provider: KeyringProvider()) { entry in
+            KeyringWidgetView(entry: entry)
                 .containerBackground(.clear, for: .widget)
         }
-        .configurationDisplayName("Widgetnimation")
-        .description("Animated widget with your image")
+        .configurationDisplayName("Keyring")
+        .description("A swinging keyring with your photo")
         .supportedFamilies([.systemSmall, .systemMedium])
     }
 }
@@ -93,8 +93,8 @@ struct WidgetnimationWidget: Widget {
 // MARK: - Bundle
 
 @main
-struct WidgetnimationWidgetBundle: WidgetBundle {
+struct KeyringWidgetBundle: WidgetBundle {
     var body: some Widget {
-        WidgetnimationWidget()
+        KeyringWidget()
     }
 }

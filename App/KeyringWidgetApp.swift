@@ -1,6 +1,6 @@
 //
-//  WidgetnimationApp.swift
-//  Widgetnimation
+//  KeyringWidgetApp.swift
+//  KeyringWidget
 //
 //  Created by 길지훈 on 2/24/26.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct WidgetnimationApp: App {
+struct KeyringWidgetApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

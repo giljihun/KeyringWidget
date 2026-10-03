@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C2527572F4D9AF6003CC5AD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2527562F4D9AF6003CC5AD /* WidgetKit.framework */; };
 		4C2527592F4D9AF6003CC5AD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2527582F4D9AF6003CC5AD /* SwiftUI.framework */; };
-		4C2527682F4D9AF7003CC5AD /* WidgetnimationWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4C2527542F4D9AF6003CC5AD /* WidgetnimationWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4C2527682F4D9AF7003CC5AD /* KeyringWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4C2527542F4D9AF6003CC5AD /* KeyringWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -18,7 +18,7 @@
 			containerPortal = 4C2526722F4D5A80003CC5AD /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4C2527532F4D9AF6003CC5AD;
-			remoteInfo = TTFusionWidgetExtension;
+			remoteInfo = KeyringWidgetExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -39,7 +39,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4C2527682F4D9AF7003CC5AD /* WidgetnimationWidgetExtension.appex in Embed Foundation Extensions */,
+				4C2527682F4D9AF7003CC5AD /* KeyringWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,24 +47,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4C25267A2F4D5A80003CC5AD /* Widgetnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Widgetnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C2527542F4D9AF6003CC5AD /* WidgetnimationWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetnimationWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C25267A2F4D5A80003CC5AD /* KeyringWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyringWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2527542F4D9AF6003CC5AD /* KeyringWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KeyringWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C2527562F4D9AF6003CC5AD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		4C2527582F4D9AF6003CC5AD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		4C25277F2F4E1000003CC5AD /* Exceptions for "Widget" folder in "WidgetnimationWidgetExtension" target */ = {
+		4C25277F2F4E1000003CC5AD /* Exceptions for "Widget" folder in "KeyringWidgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 4C2527532F4D9AF6003CC5AD /* WidgetnimationWidgetExtension */;
+			target = 4C2527532F4D9AF6003CC5AD /* KeyringWidgetExtension */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		4C08F76A2F63E266003015CC /* Exceptions for "Widget" folder in "Embed Frameworks" phase from "WidgetnimationWidgetExtension" target */ = {
+		4C08F76A2F63E266003015CC /* Exceptions for "Widget" folder in "Embed Frameworks" phase from "KeyringWidgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			attributesByRelativePath = {
 				Frameworks/ClockHandRotationEffect.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
@@ -85,8 +85,8 @@
 		4C25276F2F4D9BEF003CC5AD /* Widget */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				4C25277F2F4E1000003CC5AD /* Exceptions for "Widget" folder in "WidgetnimationWidgetExtension" target */,
-				4C08F76A2F63E266003015CC /* Exceptions for "Widget" folder in "Embed Frameworks" phase from "WidgetnimationWidgetExtension" target */,
+				4C25277F2F4E1000003CC5AD /* Exceptions for "Widget" folder in "KeyringWidgetExtension" target */,
+				4C08F76A2F63E266003015CC /* Exceptions for "Widget" folder in "Embed Frameworks" phase from "KeyringWidgetExtension" target */,
 			);
 			path = Widget;
 			sourceTree = "<group>";
@@ -138,8 +138,8 @@
 		4C25267B2F4D5A80003CC5AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C25267A2F4D5A80003CC5AD /* Widgetnimation.app */,
-				4C2527542F4D9AF6003CC5AD /* WidgetnimationWidgetExtension.appex */,
+				4C25267A2F4D5A80003CC5AD /* KeyringWidget.app */,
+				4C2527542F4D9AF6003CC5AD /* KeyringWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C2526792F4D5A80003CC5AD /* Widgetnimation */ = {
+		4C2526792F4D5A80003CC5AD /* KeyringWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C2526852F4D5A81003CC5AD /* Build configuration list for PBXNativeTarget "Widgetnimation" */;
+			buildConfigurationList = 4C2526852F4D5A81003CC5AD /* Build configuration list for PBXNativeTarget "KeyringWidget" */;
 			buildPhases = (
 				4C2526762F4D5A80003CC5AD /* Sources */,
 				4C2526772F4D5A80003CC5AD /* Frameworks */,
@@ -175,16 +175,16 @@
 				4C2527802F4E2000003CC5AD /* Core */,
 				4C2527812F4E3000003CC5AD /* Resources */,
 			);
-			name = Widgetnimation;
+			name = KeyringWidget;
 			packageProductDependencies = (
 			);
-			productName = TTFusion;
-			productReference = 4C25267A2F4D5A80003CC5AD /* Widgetnimation.app */;
+			productName = KeyringWidget;
+			productReference = 4C25267A2F4D5A80003CC5AD /* KeyringWidget.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4C2527532F4D9AF6003CC5AD /* WidgetnimationWidgetExtension */ = {
+		4C2527532F4D9AF6003CC5AD /* KeyringWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C25276A2F4D9AF7003CC5AD /* Build configuration list for PBXNativeTarget "WidgetnimationWidgetExtension" */;
+			buildConfigurationList = 4C25276A2F4D9AF7003CC5AD /* Build configuration list for PBXNativeTarget "KeyringWidgetExtension" */;
 			buildPhases = (
 				4C2527502F4D9AF6003CC5AD /* Sources */,
 				4C2527512F4D9AF6003CC5AD /* Frameworks */,
@@ -200,11 +200,11 @@
 				4C2527802F4E2000003CC5AD /* Core */,
 				4C2527812F4E3000003CC5AD /* Resources */,
 			);
-			name = WidgetnimationWidgetExtension;
+			name = KeyringWidgetExtension;
 			packageProductDependencies = (
 			);
-			productName = TTFusionWidgetExtension;
-			productReference = 4C2527542F4D9AF6003CC5AD /* WidgetnimationWidgetExtension.appex */;
+			productName = KeyringWidgetExtension;
+			productReference = 4C2527542F4D9AF6003CC5AD /* KeyringWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4C2526752F4D5A80003CC5AD /* Build configuration list for PBXProject "Widgetnimation" */;
+			buildConfigurationList = 4C2526752F4D5A80003CC5AD /* Build configuration list for PBXProject "KeyringWidget" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -239,8 +239,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C2526792F4D5A80003CC5AD /* Widgetnimation */,
-				4C2527532F4D9AF6003CC5AD /* WidgetnimationWidgetExtension */,
+				4C2526792F4D5A80003CC5AD /* KeyringWidget */,
+				4C2527532F4D9AF6003CC5AD /* KeyringWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -282,7 +282,7 @@
 /* Begin PBXTargetDependency section */
 		4C2527672F4D9AF7003CC5AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4C2527532F4D9AF6003CC5AD /* WidgetnimationWidgetExtension */;
+			target = 4C2527532F4D9AF6003CC5AD /* KeyringWidgetExtension */;
 			targetProxy = 4C2527662F4D9AF7003CC5AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -414,7 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = App/Widgetnimation.entitlements;
+				CODE_SIGN_ENTITLEMENTS = App/KeyringWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M5VM39FM9;
@@ -430,7 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gil.Widgetnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giljihun.KeyringWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -447,7 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = App/Widgetnimation.entitlements;
+				CODE_SIGN_ENTITLEMENTS = App/KeyringWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M5VM39FM9;
@@ -463,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gil.Widgetnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giljihun.KeyringWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -480,13 +480,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = Widget/WidgetnimationWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Widget/KeyringWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M5VM39FM9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Widget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TTFusionWidget;
+				INFOPLIST_KEY_CFBundleDisplayName = Keyring;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -494,7 +494,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gil.Widgetnimation.WidgetnimationWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giljihun.KeyringWidget.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -511,13 +511,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = Widget/WidgetnimationWidgetExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Widget/KeyringWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M5VM39FM9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Widget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = TTFusionWidget;
+				INFOPLIST_KEY_CFBundleDisplayName = Keyring;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -525,7 +525,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gil.Widgetnimation.WidgetnimationWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giljihun.KeyringWidget.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -540,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C2526752F4D5A80003CC5AD /* Build configuration list for PBXProject "Widgetnimation" */ = {
+		4C2526752F4D5A80003CC5AD /* Build configuration list for PBXProject "KeyringWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C2526832F4D5A81003CC5AD /* Debug */,
@@ -549,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C2526852F4D5A81003CC5AD /* Build configuration list for PBXNativeTarget "Widgetnimation" */ = {
+		4C2526852F4D5A81003CC5AD /* Build configuration list for PBXNativeTarget "KeyringWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C2526862F4D5A81003CC5AD /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C25276A2F4D9AF7003CC5AD /* Build configuration list for PBXNativeTarget "WidgetnimationWidgetExtension" */ = {
+		4C25276A2F4D9AF7003CC5AD /* Build configuration list for PBXNativeTarget "KeyringWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C25276B2F4D9AF7003CC5AD /* Debug */,

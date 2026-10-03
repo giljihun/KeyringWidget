@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4C2526792F4D5A80003CC5AD"
-               BuildableName = "Widgetnimation.app"
-               BlueprintName = "Widgetnimation"
-               ReferencedContainer = "container:Widgetnimation.xcodeproj">
+               BuildableName = "KeyringWidget.app"
+               BlueprintName = "KeyringWidget"
+               ReferencedContainer = "container:KeyringWidget.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4C2526792F4D5A80003CC5AD"
-            BuildableName = "Widgetnimation.app"
-            BlueprintName = "Widgetnimation"
-            ReferencedContainer = "container:Widgetnimation.xcodeproj">
+            BuildableName = "KeyringWidget.app"
+            BlueprintName = "KeyringWidget"
+            ReferencedContainer = "container:KeyringWidget.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4C2526792F4D5A80003CC5AD"
-            BuildableName = "Widgetnimation.app"
-            BlueprintName = "Widgetnimation"
-            ReferencedContainer = "container:Widgetnimation.xcodeproj">
+            BuildableName = "KeyringWidget.app"
+            BlueprintName = "KeyringWidget"
+            ReferencedContainer = "container:KeyringWidget.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

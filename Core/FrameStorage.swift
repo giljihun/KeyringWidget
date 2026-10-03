@@ -1,6 +1,6 @@
 //
 //  FrameStorage.swift
-//  Widgetnimation
+//  KeyringWidget
 //
 //  Created by 길지훈 on 2026-02-25.
 //
@@ -17,7 +17,7 @@ import UIKit
 /// ```
 nonisolated enum FrameStorage {
 
-    static let appGroupID = "group.com.Widgetnimation.shared"
+    static let appGroupID = "group.com.giljihun.KeyringWidget"
 
     /// One-way frame count (designer-provided: 0→29)
     static let baseFrameCount = 30
