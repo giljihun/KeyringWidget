@@ -1,8 +1,8 @@
+[English](README.md) · **한국어**
+
 # KeyringWidget
 
 사진 한 장으로 흔들리는 키링 위젯을 만드는 예제입니다. [ClockHandKit](https://github.com/giljihun/ClockHandKit)으로 만들었습니다.
-
-[English](README.md)
 
 <p align="center">
   <img src="Documentation/keyring-app.png" alt="사진을 고르고 생성하는 화면" height="360">
@@ -18,7 +18,3 @@
 
 `KeyringWidget.xcodeproj`를 열고 Team과 App Group을 본인 것으로 바꾼 다음, iOS 26 이상 아이폰에서 실행하세요.
 사진을 고르고 홈 화면에 **Keyring** 위젯을 추가하면 됩니다.
-
-## 감사
-
-[Bryce Bostwick의 WidgetAnimation](https://github.com/brycebostwick/WidgetAnimation)에서 아이디어를 얻었고, [KEYCHY](https://apps.apple.com/us/app/%ED%82%A4%EC%B9%98-keychy/id6754951347)를 위해 만든 기능을 예제로 옮겼습니다.
